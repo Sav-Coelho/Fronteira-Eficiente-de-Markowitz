@@ -1,4 +1,4 @@
-# Fronteira-Eficiente-de-Markowitz
+# Fronteira Eficiente de Markowitz
 Utilizando a biblioteca PyPortfolio para realizar uma otimização de portfolio pelos critérios da Teoria Moderna dos Portfólios.
 
 Um dos desafios de um gestor de portfólios ou um gestor de riscos é encontrar a melhor combinação de ativos que leve ao máximo retorno esperado com o menor risco. A dificuldade de realizar esse tipo de tarefa é que é necessário levar em conta não apenas o risco dos ativos individuais, mas como o risco é modificados pela _combinação_ de ativos. Isso é medido por uma matriz de covariância entre os ativos. Markowitz (1952) solucionou esse problema ao considerar a criação de uma "fronteira de eficiência" daqueles portfólios teóricos que estariam no limite das preferências de risco de um agente econômicos. Dentro dessa fronteira existiria, no entanto, ao menos um portfólio que maximizaria o retorno esperado com o menor risco possível; considerando que o retorno de um portfólio é o somatório dos retornos esperados dos ativos individuais multiplicado pelos _pesos_ de cada ativo dentro da carteira de investimentos. 
